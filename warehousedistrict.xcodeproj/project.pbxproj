@@ -22,6 +22,7 @@
 		954115CC1651C66400113346 /* TWDAEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954115CB1651C66400113346 /* TWDAEventsViewController.m */; };
 		954115D01651C68100113346 /* TWDARealEstateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954115CF1651C68000113346 /* TWDARealEstateViewController.m */; };
 		954115D31651C68E00113346 /* TWDAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954115D21651C68E00113346 /* TWDAMapViewController.m */; };
+		954115DA1651D35300113346 /* TWDAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 954115D91651D35300113346 /* TWDAParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		954115CF1651C68000113346 /* TWDARealEstateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDARealEstateViewController.m; sourceTree = "<group>"; };
 		954115D11651C68E00113346 /* TWDAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDAMapViewController.h; sourceTree = "<group>"; };
 		954115D21651C68E00113346 /* TWDAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDAMapViewController.m; sourceTree = "<group>"; };
+		954115D81651D35300113346 /* TWDAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDAParser.h; sourceTree = "<group>"; };
+		954115D91651D35300113346 /* TWDAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDAParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 		954115C11651C5F700113346 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				954115D81651D35300113346 /* TWDAParser.h */,
+				954115D91651D35300113346 /* TWDAParser.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				954115CC1651C66400113346 /* TWDAEventsViewController.m in Sources */,
 				954115D01651C68100113346 /* TWDARealEstateViewController.m in Sources */,
 				954115D31651C68E00113346 /* TWDAMapViewController.m in Sources */,
+				954115DA1651D35300113346 /* TWDAParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

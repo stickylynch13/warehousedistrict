@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TWDAParser.h"
 
-@interface TWDABusinessViewController : UIViewController
+@interface TWDABusinessViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) NSMutableArray *items;
 
 @end
