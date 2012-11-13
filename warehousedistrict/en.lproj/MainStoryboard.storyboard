@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
     </dependencies>
@@ -26,7 +26,7 @@
                             <constraint firstItem="20" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ty9-wx-CyI"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Business" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Business" image="biz.png" id="7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
@@ -54,7 +54,7 @@
                             <constraint firstItem="BrY-NM-g28" firstAttribute="top" secondItem="0Ue-bG-Mpg" secondAttribute="top" constant="126" id="nse-xf-Xvy"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Events" id="Vrh-hK-kOX"/>
+                    <tabBarItem key="tabBarItem" title="Events" image="events.png" id="Vrh-hK-kOX"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8ud-PD-Y0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -83,7 +83,7 @@
                             <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pc3-9Y-W42"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Restaurants" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Restaurants" image="food.png" id="6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,7 +111,7 @@
                             <constraint firstItem="b7m-pV-DS1" firstAttribute="leading" secondItem="UXC-U1-Kxi" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="q9r-yg-Qfe"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Real Estate" id="v6i-dk-vRG"/>
+                    <tabBarItem key="tabBarItem" title="Real Estate" image="realestate.png" id="v6i-dk-vRG"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0p4-Gd-hjG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -140,7 +140,7 @@
                             <constraint firstItem="KRi-Gh-yiF" firstAttribute="top" secondItem="bGv-2o-umb" secondAttribute="top" constant="104" id="vZR-C1-mUV"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="dAd-fe-cs3"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map.png" id="dAd-fe-cs3"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Zi-OK-RGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -170,6 +170,13 @@
             <point key="canvasLocation" x="-482" y="482"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="biz.png" width="48" height="48"/>
+        <image name="events.png" width="48" height="48"/>
+        <image name="food.png" width="48" height="48"/>
+        <image name="map.png" width="48" height="48"/>
+        <image name="realestate.png" width="48" height="48"/>
+    </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
