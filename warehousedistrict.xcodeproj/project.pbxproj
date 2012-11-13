@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		497639B11651D523008B0569 /* food@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639B01651D523008B0569 /* food@2x.png */; };
+		497639B31651D598008B0569 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639B21651D598008B0569 /* food.png */; };
+		497639B51651D619008B0569 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639B41651D618008B0569 /* map@2x.png */; };
+		497639B71651D64D008B0569 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639B61651D64D008B0569 /* map.png */; };
+		497639B91651D6F6008B0569 /* events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639B81651D6F6008B0569 /* events@2x.png */; };
+		497639BB1651D72A008B0569 /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639BA1651D72A008B0569 /* events.png */; };
+		497639BD1651D766008B0569 /* realestate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639BC1651D766008B0569 /* realestate@2x.png */; };
+		497639BF1651D784008B0569 /* realestate.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639BE1651D784008B0569 /* realestate.png */; };
+		497639C11651D7CA008B0569 /* biz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639C01651D7CA008B0569 /* biz@2x.png */; };
+		497639C31651D7E8008B0569 /* biz.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639C21651D7E8008B0569 /* biz.png */; };
+		497639C51651D8D1008B0569 /* twdamap.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639C41651D8D1008B0569 /* twdamap.png */; };
 		954115931651BFE100113346 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954115921651BFE100113346 /* UIKit.framework */; };
 		954115951651BFE100113346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954115941651BFE100113346 /* Foundation.framework */; };
 		954115971651BFE100113346 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954115961651BFE100113346 /* CoreGraphics.framework */; };
@@ -26,6 +37,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		497639B01651D523008B0569 /* food@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "food@2x.png"; path = "48x48/food@2x.png"; sourceTree = "<group>"; };
+		497639B21651D598008B0569 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		497639B41651D618008B0569 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		497639B61651D64D008B0569 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		497639B81651D6F6008B0569 /* events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "events@2x.png"; sourceTree = "<group>"; };
+		497639BA1651D72A008B0569 /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = events.png; sourceTree = "<group>"; };
+		497639BC1651D766008B0569 /* realestate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "realestate@2x.png"; sourceTree = "<group>"; };
+		497639BE1651D784008B0569 /* realestate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realestate.png; sourceTree = "<group>"; };
+		497639C01651D7CA008B0569 /* biz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biz@2x.png"; sourceTree = "<group>"; };
+		497639C21651D7E8008B0569 /* biz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biz.png; sourceTree = "<group>"; };
+		497639C41651D8D1008B0569 /* twdamap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twdamap.png; sourceTree = "<group>"; };
 		9541158E1651BFE100113346 /* warehousedistrict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warehousedistrict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954115921651BFE100113346 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		954115941651BFE100113346 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -126,6 +148,17 @@
 		954115C01651C5F300113346 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				497639C41651D8D1008B0569 /* twdamap.png */,
+				497639C21651D7E8008B0569 /* biz.png */,
+				497639C01651D7CA008B0569 /* biz@2x.png */,
+				497639BE1651D784008B0569 /* realestate.png */,
+				497639BC1651D766008B0569 /* realestate@2x.png */,
+				497639BA1651D72A008B0569 /* events.png */,
+				497639B81651D6F6008B0569 /* events@2x.png */,
+				497639B61651D64D008B0569 /* map.png */,
+				497639B41651D618008B0569 /* map@2x.png */,
+				497639B21651D598008B0569 /* food.png */,
+				497639B01651D523008B0569 /* food@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -221,6 +254,17 @@
 				954115A71651BFE100113346 /* Default@2x.png in Resources */,
 				954115A91651BFE100113346 /* Default-568h@2x.png in Resources */,
 				954115AC1651BFE100113346 /* MainStoryboard.storyboard in Resources */,
+				497639B11651D523008B0569 /* food@2x.png in Resources */,
+				497639B31651D598008B0569 /* food.png in Resources */,
+				497639B51651D619008B0569 /* map@2x.png in Resources */,
+				497639B71651D64D008B0569 /* map.png in Resources */,
+				497639B91651D6F6008B0569 /* events@2x.png in Resources */,
+				497639BB1651D72A008B0569 /* events.png in Resources */,
+				497639BD1651D766008B0569 /* realestate@2x.png in Resources */,
+				497639BF1651D784008B0569 /* realestate.png in Resources */,
+				497639C11651D7CA008B0569 /* biz@2x.png in Resources */,
+				497639C31651D7E8008B0569 /* biz.png in Resources */,
+				497639C51651D8D1008B0569 /* twdamap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +399,7 @@
 				954115BF1651BFE100113346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
