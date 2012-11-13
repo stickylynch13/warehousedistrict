@@ -117,18 +117,17 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Map" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KRi-Gh-yiF">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="twdamap.png" translatesAutoresizingMaskIntoConstraints="NO" id="qXb-dj-FIS">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="499" id="FG2-JT-B7j"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="KRi-Gh-yiF" firstAttribute="leading" secondItem="bGv-2o-umb" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="J0I-WT-4n7"/>
-                            <constraint firstAttribute="trailing" secondItem="KRi-Gh-yiF" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="VCb-bl-8oF"/>
-                            <constraint firstItem="KRi-Gh-yiF" firstAttribute="top" secondItem="bGv-2o-umb" secondAttribute="top" constant="104" id="vZR-C1-mUV"/>
+                            <constraint firstItem="qXb-dj-FIS" firstAttribute="top" secondItem="bGv-2o-umb" secondAttribute="top" constant="-4" id="2LT-JW-Xgl"/>
+                            <constraint firstItem="qXb-dj-FIS" firstAttribute="trailing" secondItem="bGv-2o-umb" secondAttribute="trailing" type="default" id="Arq-TT-wpS"/>
+                            <constraint firstItem="qXb-dj-FIS" firstAttribute="leading" secondItem="bGv-2o-umb" secondAttribute="leading" type="default" id="yGg-wx-Icq"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map.png" id="dAd-fe-cs3"/>
@@ -167,6 +166,7 @@
         <image name="food.png" width="48" height="48"/>
         <image name="map.png" width="48" height="48"/>
         <image name="realestate.png" width="48" height="48"/>
+        <image name="twdamap.png" width="726" height="792"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
