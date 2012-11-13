@@ -11,6 +11,6 @@
 
 @interface TWDABusinessViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, strong) NSMutableArray *items;
+@property (nonatomic, strong) NSArray *items;
 
 @end

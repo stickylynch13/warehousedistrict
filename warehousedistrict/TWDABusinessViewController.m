@@ -56,7 +56,7 @@
     }
     
     // Configure the cell.
-    cell.textLabel.text = [[_items objectAtIndex:indexPath.row] objectForKey:@"title"];
+    cell.textLabel.text = [_items objectAtIndex:indexPath.row];
     return cell;
 }
 

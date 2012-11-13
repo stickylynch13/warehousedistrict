@@ -10,16 +10,9 @@
 
 @implementation TWDAParser
 
--(NSMutableArray *)parseBusinessJSON
+-(NSArray *)parseBusinessJSON
 {
-    // Format search bar
-    NSString* formattedSearch = @"Forest Gump";
-    
-    // Variable to store our API Key
-    NSString* const RT_API_KEY = @"t7c5rszh63xhsk2r8n4yqrd8"; // This is where you put your API key
-    NSString* searchURL = [NSString
-                           stringWithFormat:@"http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=%@&q=%@",
-                           RT_API_KEY, formattedSearch];
+    NSString *searchURL = @"http://warehousedistrict.herokuapp.com/api/businesses/all.json";
     
     NSLog(@"%@", searchURL);
     
@@ -40,27 +33,22 @@
             return nil;
         }
         
-       	NSArray *movieArray = [jsonObjects objectForKey:@"movies"];
-        
         // loop through movies
-        for (NSDictionary *movie in movieArray)
+        NSMutableArray *nameArray = [NSMutableArray array];
+        for (id name in jsonObjects)
         {
-            NSLog(@"%@ is %@", movie, [jsonObjects objectForKey:movie]);
-            
-            // Get dvd and theater release
-            NSDictionary *release_dates = [movie objectForKey:@"release_dates"];
-            
-            NSString *theaterRelease = [release_dates objectForKey:@"theater"];
-            
-            NSString *dvdRelease = [release_dates objectForKey:@"dvd"];
-            
-            // Show the critics consensus; overwrites json output
-            // [txtOutput setText:[movie objectForKey:@"critics_consensus"]];
+            NSLog(@"%@", [name objectForKey:@"name"]);
+            [nameArray addObject:[name objectForKey:@"name"]];
+//            NSLog(@"%@", [[NSString stringWithFormat:@"%@", name]
+//                                stringByTrimmingCharactersInSet:
+//                                [NSCharacterSet whitespaceCharacterSet]]);
+        
         }
+        return nameArray;
     }
     else
     {
-        // Handle Error
+        return nil;
     }
 }
 
