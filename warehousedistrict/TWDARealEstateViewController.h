@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TWDAParser.h"
 
 @interface TWDARealEstateViewController : UIViewController
+
+@property (nonatomic, strong) NSArray *items;
 
 @end

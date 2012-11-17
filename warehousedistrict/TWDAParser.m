@@ -10,14 +10,16 @@
 
 @implementation TWDAParser
 
--(NSArray *)parseBusinessJSON
+//NSString *business = @"0";
+//NSString *restaurants = @"1";
+//NSString *realEstate = @"2";
+//NSString *retail = @"3";
+NSString *businessSearchURL = @"http://warehousedistrict.herokuapp.com/api/businesses/all.json";
+
+-(NSArray *)parseBusinessJSON:(NSString *)categoryId
 {
-    NSString *searchURL = @"http://warehousedistrict.herokuapp.com/api/businesses/all.json";
-    
-    NSLog(@"%@", searchURL);
-    
     NSError *error = nil;
-    NSData *jsonData = [NSData dataWithContentsOfURL:[NSURL URLWithString:searchURL]];
+    NSData *jsonData = [NSData dataWithContentsOfURL:[NSURL URLWithString:businessSearchURL]];
     
     if (jsonData)
     {
@@ -33,16 +35,21 @@
             return nil;
         }
         
-        // loop through movies
         NSMutableArray *nameArray = [NSMutableArray array];
         for (id name in jsonObjects)
         {
-            NSLog(@"%@", [name objectForKey:@"name"]);
-            [nameArray addObject:[name objectForKey:@"name"]];
-//            NSLog(@"%@", [[NSString stringWithFormat:@"%@", name]
-//                                stringByTrimmingCharactersInSet:
-//                                [NSCharacterSet whitespaceCharacterSet]]);
-        
+            NSString *jsonCategoryId = [NSString stringWithFormat:@"%@", [name objectForKey:@"category_id"]];
+            
+            if ([jsonCategoryId isEqualToString:categoryId])
+            {
+                [nameArray addObject:[name objectForKey:@"name"]];
+            }
+            
+            // We merged retail and business so this is a hack that handles that merge
+            if ([categoryId isEqualToString:@"0"] && [jsonCategoryId isEqualToString:@"3"])
+            {
+                [nameArray addObject:[name objectForKey:@"name"]];
+            }
         }
         return nameArray;
     }

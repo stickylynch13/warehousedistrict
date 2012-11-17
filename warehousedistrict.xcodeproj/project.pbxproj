@@ -183,6 +183,15 @@
 		954115C31651C60300113346 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				95951D2D16580CA600FCF939 /* Master */,
+				95951D2F16580CB500FCF939 /* Detail */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		95951D2D16580CA600FCF939 /* Master */ = {
+			isa = PBXGroup;
+			children = (
 				954115C41651C64000113346 /* TWDABusinessViewController.h */,
 				954115C51651C64000113346 /* TWDABusinessViewController.m */,
 				954115C71651C65300113346 /* TWDARestaurantsViewController.h */,
@@ -194,7 +203,14 @@
 				954115D11651C68E00113346 /* TWDAMapViewController.h */,
 				954115D21651C68E00113346 /* TWDAMapViewController.m */,
 			);
-			name = Controllers;
+			name = Master;
+			sourceTree = "<group>";
+		};
+		95951D2F16580CB500FCF939 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

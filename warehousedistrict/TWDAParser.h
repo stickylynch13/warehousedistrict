@@ -10,6 +10,6 @@
 
 @interface TWDAParser : NSObject
 
--(NSMutableArray *)parseBusinessJSON;
+-(NSArray *)parseBusinessJSON:(NSString *)categoryId;
 
 @end

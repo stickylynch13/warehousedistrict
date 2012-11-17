@@ -28,7 +28,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     TWDAParser *parser = [[TWDAParser alloc] init];
-    _items = [parser parseBusinessJSON];
+    _items = [parser parseBusinessJSON:@"0"];
 }
 
 - (void)didReceiveMemoryWarning
