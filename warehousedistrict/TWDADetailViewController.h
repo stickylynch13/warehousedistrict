@@ -17,4 +17,6 @@
 @property (nonatomic, strong) IBOutlet UIImageView *logoURL;
 @property (nonatomic, strong) IBOutlet UITextView *description;
 
+@property (nonatomic, strong) NSDictionary *item;
+
 @end

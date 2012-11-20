@@ -144,6 +144,7 @@
                         <outlet property="description" destination="7gU-9C-bI7" id="JOx-97-xP4"/>
                         <outlet property="logoURL" destination="UuS-z8-oPX" id="v4x-Nc-Iu5"/>
                         <outlet property="phone" destination="Hhk-PN-fEB" id="p97-dT-e8u"/>
+                        <outlet property="website" destination="Fa6-CR-WZS" id="r9e-1o-qZV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vDa-Ap-CIB" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -8,6 +8,7 @@
 
 #import "TWDABusinessViewController.h"
 #import "TWDADetailViewController.h"
+#import "TWDABusinesses.h"
 
 @interface TWDABusinessViewController ()
 
@@ -66,6 +67,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     TWDADetailViewController *detailView = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
+    detailView.item = [_items objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:detailView animated:YES];
 }
 
