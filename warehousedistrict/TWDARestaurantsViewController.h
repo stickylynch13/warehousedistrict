@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TWDAParser.h"
 
-@interface TWDARestaurantsViewController : UIViewController
+@interface TWDARestaurantsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) NSArray *items;
 
 @end
