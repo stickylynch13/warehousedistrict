@@ -7,6 +7,7 @@
 //
 
 #import "TWDABusinessViewController.h"
+#import "TWDADetailViewController.h"
 
 @interface TWDABusinessViewController ()
 
@@ -51,8 +52,10 @@
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                      reuseIdentifier:CellIdentifier];
     }
     
     // Configure the cell.
@@ -60,5 +63,10 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    TWDADetailViewController *detailView = [self.storyboard instantiateViewControllerWithIdentifier:@"detail"];
+    [self.navigationController pushViewController:detailView animated:YES];
+}
 
 @end

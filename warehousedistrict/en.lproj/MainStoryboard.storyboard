@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
     </dependencies>
     <scenes>
         <!--Business View Controller - Business-->
@@ -9,7 +9,7 @@
             <objects>
                 <viewController title="Business" id="2" customClass="TWDABusinessViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="e7a-HE-hCZ">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <connections>
@@ -17,11 +17,11 @@
                             <outlet property="delegate" destination="2" id="S5W-wS-Sd3"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Business" image="biz.png" id="7"/>
+                    <navigationItem key="navigationItem" id="R9J-hn-fIX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="315" y="-963"/>
+            <point key="canvasLocation" x="841" y="-963"/>
         </scene>
         <!--Events View Controller - Events-->
         <scene sceneID="4Nl-3R-y9O">
@@ -51,6 +51,104 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8ud-PD-Y0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="315" y="463"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="rPu-eU-7bO">
+            <objects>
+                <viewController restorationIdentifier="detail" storyboardIdentifier="detail" id="dDa-3q-a6t" customClass="TWDADetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BSD-oa-liv">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Business" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eft-KY-qPJ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="6ph-To-4ho"/>
+                                    <constraint firstAttribute="height" constant="41" id="e2i-eh-iyq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaj-7i-6Xh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="BOc-Wy-Sju"/>
+                                    <constraint firstAttribute="width" constant="137" id="EZY-HZ-dfJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhk-PN-fEB">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="eA7-Qx-Vzt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Website" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fa6-CR-WZS">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="gNk-5p-V0C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UuS-z8-oPX">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="GVg-TE-b7z"/>
+                                    <constraint firstAttribute="width" constant="128" id="zF5-Fu-gKz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="TWDA-Star.png" translatesAutoresizingMaskIntoConstraints="NO" id="5LI-WF-Bar"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gU-9C-bI7">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="205" id="Pwi-ed-ekx"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                        <constraints>
+                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="trailing" secondItem="Fa6-CR-WZS" secondAttribute="trailing" type="default" id="32e-BT-XAf"/>
+                            <constraint firstItem="7gU-9C-bI7" firstAttribute="top" secondItem="5LI-WF-Bar" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="6ds-yR-hpd"/>
+                            <constraint firstItem="5LI-WF-Bar" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="204" id="7He-Xg-9Ra"/>
+                            <constraint firstItem="jaj-7i-6Xh" firstAttribute="leading" secondItem="Eft-KY-qPJ" secondAttribute="leading" type="default" id="APE-0E-nuO"/>
+                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="top" secondItem="jaj-7i-6Xh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Dbs-la-8uR"/>
+                            <constraint firstItem="UuS-z8-oPX" firstAttribute="top" secondItem="Eft-KY-qPJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Ew8-QH-PP7"/>
+                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="leading" secondItem="jaj-7i-6Xh" secondAttribute="leading" type="default" id="KAC-Ft-Sj6"/>
+                            <constraint firstItem="5LI-WF-Bar" firstAttribute="centerX" secondItem="UuS-z8-oPX" secondAttribute="centerX" type="default" id="LRS-vp-SXy"/>
+                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="top" secondItem="Hhk-PN-fEB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="McE-nT-cAB"/>
+                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="20" symbolic="YES" type="default" id="QoP-i3-Fik"/>
+                            <constraint firstItem="UuS-z8-oPX" firstAttribute="trailing" secondItem="7gU-9C-bI7" secondAttribute="trailing" type="default" id="SQi-DU-JqH"/>
+                            <constraint firstItem="jaj-7i-6Xh" firstAttribute="top" secondItem="Eft-KY-qPJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fAG-Ww-LTJ"/>
+                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="leading" secondItem="7gU-9C-bI7" secondAttribute="leading" type="default" id="fwx-QF-74X"/>
+                            <constraint firstItem="UuS-z8-oPX" firstAttribute="trailing" secondItem="Eft-KY-qPJ" secondAttribute="trailing" type="default" id="nqD-jF-0kJ"/>
+                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="leading" secondItem="Hhk-PN-fEB" secondAttribute="leading" type="default" id="nzl-wW-Chk"/>
+                            <constraint firstItem="jaj-7i-6Xh" firstAttribute="trailing" secondItem="Hhk-PN-fEB" secondAttribute="trailing" type="default" id="tUY-0K-cKm"/>
+                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="leading" secondItem="BSD-oa-liv" secondAttribute="leading" constant="16" id="unm-fa-Elh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2v0-ZN-qTO"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="address" destination="jaj-7i-6Xh" id="TtF-uL-G7e"/>
+                        <outlet property="businessName" destination="Eft-KY-qPJ" id="fAJ-Ad-V3l"/>
+                        <outlet property="description" destination="7gU-9C-bI7" id="JOx-97-xP4"/>
+                        <outlet property="logoURL" destination="UuS-z8-oPX" id="v4x-Nc-Iu5"/>
+                        <outlet property="phone" destination="Hhk-PN-fEB" id="p97-dT-e8u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDa-Ap-CIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1258" y="-963"/>
         </scene>
         <!--Restaurants View Controller - Restaurants-->
         <scene sceneID="13">
@@ -152,7 +250,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
+                        <segue destination="11x-ZR-wkY" kind="relationship" relationship="viewControllers" id="26"/>
                         <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
                         <segue destination="34t-sF-A23" kind="relationship" relationship="viewControllers" id="b9w-EE-RLd"/>
                         <segue destination="rKc-PQ-rMN" kind="relationship" relationship="viewControllers" id="63s-Hq-iMn"/>
@@ -163,8 +261,28 @@
             </objects>
             <point key="canvasLocation" x="-482" y="482"/>
         </scene>
+        <!--Navigation Controller - Business-->
+        <scene sceneID="DUM-VC-1QJ">
+            <objects>
+                <navigationController id="11x-ZR-wkY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Business" image="biz.png" id="7"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IHr-BK-CH6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="Cx2-1W-dte"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ukb-fT-L59" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="-963"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="TWDA-Star.png" width="146" height="32"/>
         <image name="biz.png" width="48" height="48"/>
         <image name="events.png" width="48" height="48"/>
         <image name="food.png" width="48" height="48"/>
@@ -178,6 +296,17 @@
         </class>
         <class className="TWDABusinessViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TWDABusinessViewController.h"/>
+        </class>
+        <class className="TWDADetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TWDADetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="address" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="businessName" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="description" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="logoURL" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="phone" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="website" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="TWDAEventsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TWDAEventsViewController.h"/>

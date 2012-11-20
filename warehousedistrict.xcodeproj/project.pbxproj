@@ -34,6 +34,8 @@
 		954115D01651C68100113346 /* TWDARealEstateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954115CF1651C68000113346 /* TWDARealEstateViewController.m */; };
 		954115D31651C68E00113346 /* TWDAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954115D21651C68E00113346 /* TWDAMapViewController.m */; };
 		954115DA1651D35300113346 /* TWDAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 954115D91651D35300113346 /* TWDAParser.m */; };
+		95951D4C165B0CAB00FCF939 /* TWDADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95951D4A165B0CAB00FCF939 /* TWDADetailViewController.m */; };
+		95951D50165B0E8300FCF939 /* TWDA-Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 95951D4F165B0E8300FCF939 /* TWDA-Star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,9 @@
 		954115D21651C68E00113346 /* TWDAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDAMapViewController.m; sourceTree = "<group>"; };
 		954115D81651D35300113346 /* TWDAParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDAParser.h; sourceTree = "<group>"; };
 		954115D91651D35300113346 /* TWDAParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDAParser.m; sourceTree = "<group>"; };
+		95951D49165B0CAB00FCF939 /* TWDADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDADetailViewController.h; sourceTree = "<group>"; };
+		95951D4A165B0CAB00FCF939 /* TWDADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDADetailViewController.m; sourceTree = "<group>"; };
+		95951D4F165B0E8300FCF939 /* TWDA-Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TWDA-Star.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +125,6 @@
 		954115981651BFE100113346 /* warehousedistrict */ = {
 			isa = PBXGroup;
 			children = (
-				954115CA1651C66400113346 /* TWDAEventsViewController.h */,
 				954115C11651C5F700113346 /* Models */,
 				954115C21651C5FD00113346 /* Views */,
 				954115C31651C60300113346 /* Controllers */,
@@ -149,6 +153,7 @@
 		954115C01651C5F300113346 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				95951D4F165B0E8300FCF939 /* TWDA-Star.png */,
 				497639C41651D8D1008B0569 /* twdamap.png */,
 				497639C21651D7E8008B0569 /* biz.png */,
 				497639C01651D7CA008B0569 /* biz@2x.png */,
@@ -198,6 +203,7 @@
 				954115C71651C65300113346 /* TWDARestaurantsViewController.h */,
 				954115C81651C65300113346 /* TWDARestaurantsViewController.m */,
 				954115CB1651C66400113346 /* TWDAEventsViewController.m */,
+				954115CA1651C66400113346 /* TWDAEventsViewController.h */,
 				954115CE1651C68000113346 /* TWDARealEstateViewController.h */,
 				954115CF1651C68000113346 /* TWDARealEstateViewController.m */,
 				954115D11651C68E00113346 /* TWDAMapViewController.h */,
@@ -209,6 +215,8 @@
 		95951D2F16580CB500FCF939 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				95951D49165B0CAB00FCF939 /* TWDADetailViewController.h */,
+				95951D4A165B0CAB00FCF939 /* TWDADetailViewController.m */,
 			);
 			name = Detail;
 			sourceTree = "<group>";
@@ -281,6 +289,7 @@
 				497639C11651D7CA008B0569 /* biz@2x.png in Resources */,
 				497639C31651D7E8008B0569 /* biz.png in Resources */,
 				497639C51651D8D1008B0569 /* twdamap.png in Resources */,
+				95951D50165B0E8300FCF939 /* TWDA-Star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +308,7 @@
 				954115D01651C68100113346 /* TWDARealEstateViewController.m in Sources */,
 				954115D31651C68E00113346 /* TWDAMapViewController.m in Sources */,
 				954115DA1651D35300113346 /* TWDAParser.m in Sources */,
+				95951D4C165B0CAB00FCF939 /* TWDADetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
