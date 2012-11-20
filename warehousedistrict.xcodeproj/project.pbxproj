@@ -120,6 +120,7 @@
 		954115981651BFE100113346 /* warehousedistrict */ = {
 			isa = PBXGroup;
 			children = (
+				954115CA1651C66400113346 /* TWDAEventsViewController.h */,
 				954115C11651C5F700113346 /* Models */,
 				954115C21651C5FD00113346 /* Views */,
 				954115C31651C60300113346 /* Controllers */,
@@ -196,7 +197,6 @@
 				954115C51651C64000113346 /* TWDABusinessViewController.m */,
 				954115C71651C65300113346 /* TWDARestaurantsViewController.h */,
 				954115C81651C65300113346 /* TWDARestaurantsViewController.m */,
-				954115CA1651C66400113346 /* TWDAEventsViewController.h */,
 				954115CB1651C66400113346 /* TWDAEventsViewController.m */,
 				954115CE1651C68000113346 /* TWDARealEstateViewController.h */,
 				954115CF1651C68000113346 /* TWDARealEstateViewController.m */,
