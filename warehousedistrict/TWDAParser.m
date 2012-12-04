@@ -7,6 +7,7 @@
 //
 
 #import "TWDAParser.h"
+#import "TWDABusinesses.h"
 
 @implementation TWDAParser
 
@@ -36,6 +37,7 @@ NSString *businessSearchURL = @"http://warehousedistrict.herokuapp.com/api/busin
         }
         
         NSMutableArray *nameArray = [NSMutableArray array];
+        
         for (id name in jsonObjects)
         {
             NSString *jsonCategoryId = [NSString stringWithFormat:@"%@", [name objectForKey:@"category_id"]];
@@ -43,6 +45,14 @@ NSString *businessSearchURL = @"http://warehousedistrict.herokuapp.com/api/busin
             if ([jsonCategoryId isEqualToString:categoryId])
             {
                 [nameArray addObject:[name objectForKey:@"name"]];
+                NSMutableArray *businessArray = [[TWDABusinesses alloc] initWithPName:[name objectForKey:@"name"]
+                                                                          withAddress:[name objectForKey:@"address"]
+                                                                            withPhone:[name objectForKey:@"phone"]
+                                                                          withWebsite:[name objectForKey:@"website"]
+                                                                           withMember:[name objectForKey:@"member"]
+                                                                          withLogoURL:[name objectForKey:@"logo_URL"]
+                                                                      withDescription:[name objectForKey:@"description"]
+                                                                       withCategoryId:[name objectForKey:@"category_id"]];
             }
             
             // We merged retail and business so this is a hack that handles that merge

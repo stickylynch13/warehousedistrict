@@ -19,7 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self)
     {
-        // Custom initialization
+        self.title = NSLocalizedString(@"Businesses", @"Businesses");
     }
     return self;
 }
@@ -28,7 +28,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    NSLog(@"We are here");
+    UIImage *image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://www.toledowarehouse.org/clientuploads/img/bcreative.jpg"]]];
+    [_logoURL setImage:image];
 }
 
 - (void)didReceiveMemoryWarning

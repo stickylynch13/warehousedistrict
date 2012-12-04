@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--Business View Controller - Business-->
@@ -17,7 +17,7 @@
                             <outlet property="delegate" destination="2" id="S5W-wS-Sd3"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="R9J-hn-fIX"/>
+                    <navigationItem key="navigationItem" title="Businesses" id="R9J-hn-fIX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,33 +60,32 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Business" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eft-KY-qPJ">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="B. Creative" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eft-KY-qPJ">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="6ph-To-4ho"/>
-                                    <constraint firstAttribute="height" constant="41" id="e2i-eh-iyq"/>
+                                    <constraint firstAttribute="height" constant="26" id="UDM-za-KJ2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaj-7i-6Xh">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="921 Washington St." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaj-7i-6Xh">
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="2JF-mj-iKw"/>
                                     <constraint firstAttribute="height" constant="41" id="BOc-Wy-Sju"/>
-                                    <constraint firstAttribute="width" constant="137" id="EZY-HZ-dfJ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhk-PN-fEB">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="419.242.2402" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhk-PN-fEB">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="eA7-Qx-Vzt"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Website" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fa6-CR-WZS">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="http://www.b-creativestudio.com/" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fa6-CR-WZS">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="gNk-5p-V0C"/>
                                 </constraints>
@@ -94,45 +93,45 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UuS-z8-oPX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="http://www.toledowarehouse.org/clientuploads/img/bcreative.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UuS-z8-oPX">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="GVg-TE-b7z"/>
                                     <constraint firstAttribute="width" constant="128" id="zF5-Fu-gKz"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="TWDA-Star.png" translatesAutoresizingMaskIntoConstraints="NO" id="5LI-WF-Bar"/>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gU-9C-bI7">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Graphic design specialists in marketing materials, branding and web design." translatesAutoresizingMaskIntoConstraints="NO" id="7gU-9C-bI7">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="205" id="Pwi-ed-ekx"/>
+                                    <constraint firstAttribute="height" constant="52" id="aq4-8C-pBH"/>
                                 </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                         <constraints>
-                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="trailing" secondItem="Fa6-CR-WZS" secondAttribute="trailing" type="default" id="32e-BT-XAf"/>
-                            <constraint firstItem="7gU-9C-bI7" firstAttribute="top" secondItem="5LI-WF-Bar" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="6ds-yR-hpd"/>
                             <constraint firstItem="5LI-WF-Bar" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="204" id="7He-Xg-9Ra"/>
                             <constraint firstItem="jaj-7i-6Xh" firstAttribute="leading" secondItem="Eft-KY-qPJ" secondAttribute="leading" type="default" id="APE-0E-nuO"/>
                             <constraint firstItem="Hhk-PN-fEB" firstAttribute="top" secondItem="jaj-7i-6Xh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Dbs-la-8uR"/>
                             <constraint firstItem="UuS-z8-oPX" firstAttribute="top" secondItem="Eft-KY-qPJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Ew8-QH-PP7"/>
                             <constraint firstItem="Hhk-PN-fEB" firstAttribute="leading" secondItem="jaj-7i-6Xh" secondAttribute="leading" type="default" id="KAC-Ft-Sj6"/>
                             <constraint firstItem="5LI-WF-Bar" firstAttribute="centerX" secondItem="UuS-z8-oPX" secondAttribute="centerX" type="default" id="LRS-vp-SXy"/>
-                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="top" secondItem="Hhk-PN-fEB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="McE-nT-cAB"/>
-                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="20" symbolic="YES" type="default" id="QoP-i3-Fik"/>
+                            <constraint firstItem="UuS-z8-oPX" firstAttribute="leading" secondItem="jaj-7i-6Xh" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Qxu-O7-hTy"/>
                             <constraint firstItem="UuS-z8-oPX" firstAttribute="trailing" secondItem="7gU-9C-bI7" secondAttribute="trailing" type="default" id="SQi-DU-JqH"/>
+                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="35" id="WeU-qk-9cx"/>
+                            <constraint firstAttribute="bottom" secondItem="7gU-9C-bI7" secondAttribute="bottom" constant="147" id="XOB-53-8Jz"/>
+                            <constraint firstItem="5LI-WF-Bar" firstAttribute="trailing" secondItem="Fa6-CR-WZS" secondAttribute="trailing" type="default" id="XTZ-Dd-ViM"/>
+                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="leading" secondItem="Fa6-CR-WZS" secondAttribute="leading" type="default" id="cBh-Yj-bmm"/>
+                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="centerX" secondItem="BSD-oa-liv" secondAttribute="centerX" type="default" id="cgh-88-GpL"/>
                             <constraint firstItem="jaj-7i-6Xh" firstAttribute="top" secondItem="Eft-KY-qPJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fAG-Ww-LTJ"/>
-                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="leading" secondItem="7gU-9C-bI7" secondAttribute="leading" type="default" id="fwx-QF-74X"/>
+                            <constraint firstItem="UuS-z8-oPX" firstAttribute="leading" secondItem="Hhk-PN-fEB" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="g58-SF-o9i"/>
+                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="leading" secondItem="7gU-9C-bI7" secondAttribute="leading" type="default" id="mWk-pb-puI"/>
                             <constraint firstItem="UuS-z8-oPX" firstAttribute="trailing" secondItem="Eft-KY-qPJ" secondAttribute="trailing" type="default" id="nqD-jF-0kJ"/>
-                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="leading" secondItem="Hhk-PN-fEB" secondAttribute="leading" type="default" id="nzl-wW-Chk"/>
-                            <constraint firstItem="jaj-7i-6Xh" firstAttribute="trailing" secondItem="Hhk-PN-fEB" secondAttribute="trailing" type="default" id="tUY-0K-cKm"/>
-                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="leading" secondItem="BSD-oa-liv" secondAttribute="leading" constant="16" id="unm-fa-Elh"/>
+                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" type="default" id="ynt-u1-kHy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2v0-ZN-qTO"/>
@@ -287,6 +286,7 @@
         <image name="biz.png" width="48" height="48"/>
         <image name="events.png" width="48" height="48"/>
         <image name="food.png" width="48" height="48"/>
+        <image name="http://www.toledowarehouse.org/clientuploads/img/bcreative.jpg" width="16" height="16"/>
         <image name="map.png" width="48" height="48"/>
         <image name="realestate.png" width="48" height="48"/>
         <image name="twdamap.png" width="726" height="792"/>
