@@ -18,6 +18,8 @@
 		497639C11651D7CA008B0569 /* biz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639C01651D7CA008B0569 /* biz@2x.png */; };
 		497639C31651D7E8008B0569 /* biz.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639C21651D7E8008B0569 /* biz.png */; };
 		497639C51651D8D1008B0569 /* twdamap.png in Resources */ = {isa = PBXBuildFile; fileRef = 497639C41651D8D1008B0569 /* twdamap.png */; };
+		5336532E166D86FC006E515A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336532D166D86FC006E515A /* MapKit.framework */; };
+		53365331166D8E87006E515A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53365330166D8E87006E515A /* CoreLocation.framework */; };
 		954115931651BFE100113346 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954115921651BFE100113346 /* UIKit.framework */; };
 		954115951651BFE100113346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954115941651BFE100113346 /* Foundation.framework */; };
 		954115971651BFE100113346 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954115961651BFE100113346 /* CoreGraphics.framework */; };
@@ -51,6 +53,8 @@
 		497639C01651D7CA008B0569 /* biz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biz@2x.png"; sourceTree = "<group>"; };
 		497639C21651D7E8008B0569 /* biz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biz.png; sourceTree = "<group>"; };
 		497639C41651D8D1008B0569 /* twdamap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twdamap.png; sourceTree = "<group>"; };
+		5336532D166D86FC006E515A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		53365330166D8E87006E515A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9541158E1651BFE100113346 /* warehousedistrict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warehousedistrict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954115921651BFE100113346 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		954115941651BFE100113346 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53365331166D8E87006E515A /* CoreLocation.framework in Frameworks */,
+				5336532E166D86FC006E515A /* MapKit.framework in Frameworks */,
 				954115931651BFE100113346 /* UIKit.framework in Frameworks */,
 				954115951651BFE100113346 /* Foundation.framework in Frameworks */,
 				954115971651BFE100113346 /* CoreGraphics.framework in Frameworks */,
@@ -118,6 +124,8 @@
 		954115911651BFE100113346 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53365330166D8E87006E515A /* CoreLocation.framework */,
+				5336532D166D86FC006E515A /* MapKit.framework */,
 				954115921651BFE100113346 /* UIKit.framework */,
 				954115941651BFE100113346 /* Foundation.framework */,
 				954115961651BFE100113346 /* CoreGraphics.framework */,
