@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
@@ -64,14 +64,13 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="UDM-za-KJ2"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="921 Washington St." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaj-7i-6Xh">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="144" id="2JF-mj-iKw"/>
-                                    <constraint firstAttribute="height" constant="41" id="BOc-Wy-Sju"/>
+                                    <constraint firstAttribute="height" constant="62" id="KU8-6F-zSh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -79,7 +78,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="419.242.2402" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhk-PN-fEB">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="eA7-Qx-Vzt"/>
+                                    <constraint firstAttribute="height" constant="56" id="3Vo-CA-VF3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -87,7 +86,8 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="http://www.b-creativestudio.com/" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fa6-CR-WZS">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="gNk-5p-V0C"/>
+                                    <constraint firstAttribute="width" constant="275" id="ejG-RK-5UV"/>
+                                    <constraint firstAttribute="height" constant="53" id="oX5-d6-VHR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -101,37 +101,73 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="TWDA-Star.png" translatesAutoresizingMaskIntoConstraints="NO" id="5LI-WF-Bar"/>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Graphic design specialists in marketing materials, branding and web design." translatesAutoresizingMaskIntoConstraints="NO" id="7gU-9C-bI7">
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="aq4-8C-pBH"/>
+                                    <constraint firstAttribute="width" constant="280" id="l3F-vS-W9I"/>
+                                    <constraint firstAttribute="height" constant="150" id="lf3-PI-4w0"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJq-HV-nw9">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="KeJ-3W-OTC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RA-Yd-uGW">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Website" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVS-pP-nbk">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk2-QQ-jgm">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="x25-JN-IMR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                         <constraints>
-                            <constraint firstItem="5LI-WF-Bar" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="204" id="7He-Xg-9Ra"/>
-                            <constraint firstItem="jaj-7i-6Xh" firstAttribute="leading" secondItem="Eft-KY-qPJ" secondAttribute="leading" type="default" id="APE-0E-nuO"/>
-                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="top" secondItem="jaj-7i-6Xh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Dbs-la-8uR"/>
-                            <constraint firstItem="UuS-z8-oPX" firstAttribute="top" secondItem="Eft-KY-qPJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Ew8-QH-PP7"/>
-                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="leading" secondItem="jaj-7i-6Xh" secondAttribute="leading" type="default" id="KAC-Ft-Sj6"/>
-                            <constraint firstItem="5LI-WF-Bar" firstAttribute="centerX" secondItem="UuS-z8-oPX" secondAttribute="centerX" type="default" id="LRS-vp-SXy"/>
-                            <constraint firstItem="UuS-z8-oPX" firstAttribute="leading" secondItem="jaj-7i-6Xh" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Qxu-O7-hTy"/>
-                            <constraint firstItem="UuS-z8-oPX" firstAttribute="trailing" secondItem="7gU-9C-bI7" secondAttribute="trailing" type="default" id="SQi-DU-JqH"/>
-                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="35" id="WeU-qk-9cx"/>
-                            <constraint firstAttribute="bottom" secondItem="7gU-9C-bI7" secondAttribute="bottom" constant="147" id="XOB-53-8Jz"/>
-                            <constraint firstItem="5LI-WF-Bar" firstAttribute="trailing" secondItem="Fa6-CR-WZS" secondAttribute="trailing" type="default" id="XTZ-Dd-ViM"/>
-                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="leading" secondItem="Fa6-CR-WZS" secondAttribute="leading" type="default" id="cBh-Yj-bmm"/>
-                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="centerX" secondItem="BSD-oa-liv" secondAttribute="centerX" type="default" id="cgh-88-GpL"/>
-                            <constraint firstItem="jaj-7i-6Xh" firstAttribute="top" secondItem="Eft-KY-qPJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fAG-Ww-LTJ"/>
-                            <constraint firstItem="UuS-z8-oPX" firstAttribute="leading" secondItem="Hhk-PN-fEB" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="g58-SF-o9i"/>
-                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="leading" secondItem="7gU-9C-bI7" secondAttribute="leading" type="default" id="mWk-pb-puI"/>
-                            <constraint firstItem="UuS-z8-oPX" firstAttribute="trailing" secondItem="Eft-KY-qPJ" secondAttribute="trailing" type="default" id="nqD-jF-0kJ"/>
-                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" type="default" id="ynt-u1-kHy"/>
+                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="leading" secondItem="Fa6-CR-WZS" secondAttribute="leading" type="default" id="0Iz-rM-Lwo"/>
+                            <constraint firstItem="Fa6-CR-WZS" firstAttribute="top" secondItem="Hhk-PN-fEB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0hh-3k-FcU"/>
+                            <constraint firstItem="0RA-Yd-uGW" firstAttribute="leading" secondItem="BSD-oa-liv" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1Ab-XX-1xC"/>
+                            <constraint firstItem="JJq-HV-nw9" firstAttribute="leading" secondItem="BSD-oa-liv" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1hF-46-RIv"/>
+                            <constraint firstAttribute="trailing" secondItem="5LI-WF-Bar" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="57h-ox-sNt"/>
+                            <constraint firstAttribute="bottom" secondItem="7gU-9C-bI7" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="8EC-Q4-dbO"/>
+                            <constraint firstAttribute="trailing" secondItem="UuS-z8-oPX" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="DCo-7M-hbF"/>
+                            <constraint firstAttribute="trailing" secondItem="Eft-KY-qPJ" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Gte-qd-mhx"/>
+                            <constraint firstItem="0RA-Yd-uGW" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="138" id="HXx-bQ-gry"/>
+                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="leading" secondItem="BSD-oa-liv" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="I8S-KJ-EeQ"/>
+                            <constraint firstItem="UuS-z8-oPX" firstAttribute="leading" secondItem="jaj-7i-6Xh" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Io9-UV-iCa"/>
+                            <constraint firstItem="gk2-QQ-jgm" firstAttribute="leading" secondItem="BSD-oa-liv" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="JTc-Sl-zMr"/>
+                            <constraint firstItem="7gU-9C-bI7" firstAttribute="centerX" secondItem="Eft-KY-qPJ" secondAttribute="centerX" type="default" id="Kux-wy-fV0"/>
+                            <constraint firstAttribute="bottom" secondItem="gk2-QQ-jgm" secondAttribute="bottom" constant="170" id="Ndl-dw-spT"/>
+                            <constraint firstItem="JJq-HV-nw9" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="69" id="TiC-yr-9mu"/>
+                            <constraint firstItem="jaj-7i-6Xh" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="81" id="V9C-N7-fNF"/>
+                            <constraint firstItem="0RA-Yd-uGW" firstAttribute="trailing" secondItem="WVS-pP-nbk" secondAttribute="trailing" type="default" id="XZp-Zk-yKo"/>
+                            <constraint firstItem="UuS-z8-oPX" firstAttribute="bottom" secondItem="WVS-pP-nbk" secondAttribute="bottom" type="default" id="Yuh-1v-Zpp"/>
+                            <constraint firstItem="UuS-z8-oPX" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="93" id="Zcg-xx-I0a"/>
+                            <constraint firstItem="7gU-9C-bI7" firstAttribute="leading" secondItem="BSD-oa-liv" secondAttribute="leading" constant="13" id="byt-KG-AUL"/>
+                            <constraint firstItem="Hhk-PN-fEB" firstAttribute="top" secondItem="jaj-7i-6Xh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="e9H-Zb-5vi"/>
+                            <constraint firstItem="5LI-WF-Bar" firstAttribute="top" secondItem="Eft-KY-qPJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jeh-Sx-hXv"/>
+                            <constraint firstItem="JJq-HV-nw9" firstAttribute="trailing" secondItem="0RA-Yd-uGW" secondAttribute="trailing" type="default" id="orO-OO-WJa"/>
+                            <constraint firstItem="Eft-KY-qPJ" firstAttribute="top" secondItem="BSD-oa-liv" secondAttribute="top" constant="20" symbolic="YES" type="default" id="r0Z-xt-2QR"/>
+                            <constraint firstItem="WVS-pP-nbk" firstAttribute="leading" secondItem="BSD-oa-liv" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="r6p-hZ-WrZ"/>
+                            <constraint firstItem="jaj-7i-6Xh" firstAttribute="leading" secondItem="BSD-oa-liv" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="u4h-uE-l9j"/>
+                            <constraint firstItem="UuS-z8-oPX" firstAttribute="leading" secondItem="Hhk-PN-fEB" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="v2f-ON-KgS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2v0-ZN-qTO"/>
@@ -141,6 +177,7 @@
                         <outlet property="address" destination="jaj-7i-6Xh" id="TtF-uL-G7e"/>
                         <outlet property="businessName" destination="Eft-KY-qPJ" id="fAJ-Ad-V3l"/>
                         <outlet property="description" destination="7gU-9C-bI7" id="JOx-97-xP4"/>
+                        <outlet property="isMember" destination="5LI-WF-Bar" id="tdQ-Yh-h7F"/>
                         <outlet property="logoURL" destination="UuS-z8-oPX" id="v4x-Nc-Iu5"/>
                         <outlet property="phone" destination="Hhk-PN-fEB" id="p97-dT-e8u"/>
                         <outlet property="website" destination="Fa6-CR-WZS" id="r9e-1o-qZV"/>
@@ -155,7 +192,7 @@
             <objects>
                 <viewController title="Restaurants" id="3" customClass="TWDARestaurantsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="sb5-eR-L2s">
@@ -174,18 +211,18 @@
                             <constraint firstItem="sb5-eR-L2s" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="j74-wL-EPF"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Restaurants" image="food.png" id="6"/>
+                    <navigationItem key="navigationItem" title="Restaurants" id="Pw9-Ns-m7m"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="315" y="-248"/>
+            <point key="canvasLocation" x="841" y="-248"/>
         </scene>
         <!--Real Estate View Controller - Real Estate-->
         <scene sceneID="8dE-0X-DfH">
             <objects>
                 <viewController title="Real Estate" id="rKc-PQ-rMN" customClass="TWDARealEstateViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UXC-U1-Kxi">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="YhS-ud-tMA">
@@ -204,12 +241,12 @@
                             <constraint firstItem="YhS-ud-tMA" firstAttribute="trailing" secondItem="UXC-U1-Kxi" secondAttribute="trailing" type="default" id="Y1D-PW-Ub9"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Real Estate" image="realestate.png" id="v6i-dk-vRG"/>
+                    <navigationItem key="navigationItem" title="Real Estate" id="LVe-Xo-XDq"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0p4-Gd-hjG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="321" y="1177"/>
+            <point key="canvasLocation" x="847" y="1177"/>
         </scene>
         <!--Map View Controller - Map-->
         <scene sceneID="Pad-nX-1TJ">
@@ -218,19 +255,7 @@
                     <view key="view" contentMode="scaleToFill" id="bGv-2o-umb">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="twdamap.png" translatesAutoresizingMaskIntoConstraints="NO" id="qXb-dj-FIS">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="499" id="FG2-JT-B7j"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="qXb-dj-FIS" firstAttribute="top" secondItem="bGv-2o-umb" secondAttribute="top" constant="-4" id="2LT-JW-Xgl"/>
-                            <constraint firstItem="qXb-dj-FIS" firstAttribute="trailing" secondItem="bGv-2o-umb" secondAttribute="trailing" type="default" id="Arq-TT-wpS"/>
-                            <constraint firstItem="qXb-dj-FIS" firstAttribute="leading" secondItem="bGv-2o-umb" secondAttribute="leading" type="default" id="yGg-wx-Icq"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map.png" id="dAd-fe-cs3"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -251,9 +276,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="11x-ZR-wkY" kind="relationship" relationship="viewControllers" id="26"/>
-                        <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
+                        <segue destination="DGX-yR-irR" kind="relationship" relationship="viewControllers" id="27"/>
                         <segue destination="34t-sF-A23" kind="relationship" relationship="viewControllers" id="b9w-EE-RLd"/>
-                        <segue destination="rKc-PQ-rMN" kind="relationship" relationship="viewControllers" id="63s-Hq-iMn"/>
+                        <segue destination="Coe-Ih-jv4" kind="relationship" relationship="viewControllers" id="63s-Hq-iMn"/>
                         <segue destination="Z6X-Ol-M1s" kind="relationship" relationship="viewControllers" id="xb3-Vk-NWh"/>
                     </connections>
                 </tabBarController>
@@ -280,6 +305,44 @@
             </objects>
             <point key="canvasLocation" x="315" y="-963"/>
         </scene>
+        <!--Navigation Controller - Restaurants-->
+        <scene sceneID="Qyh-HG-6a1">
+            <objects>
+                <navigationController id="DGX-yR-irR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Restaurants" image="food.png" id="6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="E8c-Zl-Gz6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3" kind="relationship" relationship="rootViewController" id="lrx-SX-fZW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Wr-He-xOg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="-248"/>
+        </scene>
+        <!--Navigation Controller - Real Estate-->
+        <scene sceneID="Yga-FI-YRN">
+            <objects>
+                <navigationController id="Coe-Ih-jv4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Real Estate" image="realestate.png" id="v6i-dk-vRG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RpI-6j-nOa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rKc-PQ-rMN" kind="relationship" relationship="rootViewController" id="xy7-os-Bnp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F2s-fQ-ITO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="321" y="1177"/>
+        </scene>
     </scenes>
     <resources>
         <image name="TWDA-Star.png" width="146" height="32"/>
@@ -289,7 +352,6 @@
         <image name="http://www.toledowarehouse.org/clientuploads/img/bcreative.jpg" width="16" height="16"/>
         <image name="map.png" width="48" height="48"/>
         <image name="realestate.png" width="48" height="48"/>
-        <image name="twdamap.png" width="726" height="792"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
@@ -304,6 +366,7 @@
                 <relationship kind="outlet" name="address" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="businessName" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="description" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="isMember" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="logoURL" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="phone" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="website" candidateClass="UILabel"/>

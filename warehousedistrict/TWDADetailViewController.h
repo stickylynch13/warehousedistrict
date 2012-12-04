@@ -16,6 +16,7 @@
 @property (nonatomic, strong) IBOutlet UILabel *website;
 @property (nonatomic, strong) IBOutlet UIImageView *logoURL;
 @property (nonatomic, strong) IBOutlet UITextView *description;
+@property (nonatomic, strong) IBOutlet UIImageView *isMember;
 
 @property (nonatomic, strong) NSDictionary *item;
 
